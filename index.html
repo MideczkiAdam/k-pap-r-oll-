@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kő-papír-olló</title>
+</head>
+<body>
+    <div class="container">
+        <div class="side-panel" id="player">
+
+            <div class="choice" id="player-choice">&#9994;</div>
+            <button class="choice-button" onclick="ChoiceButtonClicked(this)">Kő</button>
+            <button class="choice-button" onclick="ChoiceButtonClicked(this)">Papír</button>
+            <button class="choice-button" onclick="ChoiceButtonClicked(this)">Olló</button>
+
+        </div>
+        <div class="side-panel" id="enemy">
+
+            <div class="choice" id="enemy-choice">&#9994;</div>
+
+        </div>
+    </div>
+
+    <script src="rockpaperscissor.js"></script>
+</body>
+</html>
